@@ -33,13 +33,14 @@ export default function SignIn() {
       });
       const data = await res.json();
       if (data.success === false) {
-        dispatch(signInFailure(data.message));
         toast.error(data.message);
+        dispatch(signInFailure(data.message));
         return;
       }
       dispatch(signInSuccess(data));
       navigate('/');
       toast.success('Sign in successful!!');
+      
     } catch (error) {
       dispatch(signInFailure(error.message));
       toast.error(error.message);
