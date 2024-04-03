@@ -5,10 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js",
-    "build": "npm run build",
+    "start": "nodemon index.js", 
+    "build": "echo \"No build script specified\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
