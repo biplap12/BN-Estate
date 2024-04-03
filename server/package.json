@@ -6,11 +6,10 @@
   "type": "module",
   "scripts": {
     "dev": "node index.js",
-    "start": "nodemon index.js", 
+    "start": "nodemon index.js",
     "build": "echo \"No build script specified\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
