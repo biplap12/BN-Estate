@@ -1,7 +1,7 @@
 {
   "name": "bn-estate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Real estate management system",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,8 +10,12 @@
     "build": "echo \"No build script specified\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "real estate",
+    "management",
+    "system"
+  ],
+  "author": "bn-estate",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
